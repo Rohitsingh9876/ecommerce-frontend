@@ -1,0 +1,20 @@
+.card {
+    height: 300px; /* Fixed height */
+    width: 100%; /* Full width of the column */
+    overflow: hidden; /* Prevent overflow */
+}
+
+.card-img-top {
+    height: 150px; /* Fixed height for images */
+    object-fit: cover; /* Cover the area, maintaining aspect ratio */
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space out content evenly */
+}
+
+.row {
+    margin-top: 20px; /* Spacing between rows */
+}

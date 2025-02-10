@@ -1,0 +1,18 @@
+
+
+
+.navbar-nav .dropdown-menu {
+    left: auto !important; 
+    right: 0 !important;   
+    max-width: 90vw;        
+    overflow-x: hidden;     
+    word-wrap: break-word;  
+}
+
+/* Adjusting the dropdown on smaller screens */
+@media (max-width: 768px) {
+    .navbar-nav .dropdown-menu {
+        position: absolute !important;
+        left: 0 !important;
+    }
+}
