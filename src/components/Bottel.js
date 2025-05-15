@@ -65,7 +65,11 @@ const Cart = () => {
     }
 
     if (cartItems.length === 0) {
-        return <div>Your cart is empty</div>;
+       return (
+        <div style={{ fontSize: '40px', color: 'blue', textAlign: 'center', marginTop: '20px' }}>
+            Your cart is empty
+        </div>
+    );
     }
 
     return (
